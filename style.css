@@ -1,0 +1,57 @@
+/* Question 5 */
+body{
+    background-color:lightblue;
+    color: black;
+}
+
+body > h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+
+body > h2 {
+    text-align: center;
+    font-size: large;
+    margin-top: 0px;
+}
+
+body > div {
+    float:left;
+    width: 24%;
+    height: 300px;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+}
+
+.question1 {
+    margin-left: 1.25%;
+}
+
+.question1 p {
+    float:left;
+    height: 60px;
+}
+
+.question1 button {
+    margin-top: 21px;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+}
+
+.question1 .container {
+    margin-left: 22%;
+    width: fit-content;
+}
+
+.question2 > h2 {
+    margin-left: 24%;
+    float: left;
+}
+
+.form > label {
+    text-align: left;
+}
